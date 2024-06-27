@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+margin:0;
+padding:0
+	
+}
+.container{
+	max-width: 1224px;
+	width: 90%;
+	padding: 40px 0;
+	margin:auto;
+}
+.title{
+	margin-bottom: 2rem;
+}
+.photogallery{
+display:flex;
+gaps: 20px;
+	
+}
+.column{
+display: flex;
+flex-direction: column;
+gap: 10px;
+	
+}
+.photo {
+width:80%;
+height: 100%;
+border-radius: 10px;
+object-fit:cover;
+	
+}
+
+.button{
+display: inline-flex;
+height:60px;
+padding: 0;
+background: #0C0C0C;
+border:none;
+outline:none;
+border-radius:5px;
+overflow:hidden;
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-size: 30px;
+font-weight:300;
+cursor: pointer;
+color: white;
+		
+}
+.button:hover {
+	background:#EBBBEA
+}
+.button:active {
+	
+	background:#0C0C0C;
+}
+
+.button__text,
+.button__icon {
+	display: inline-flex;align-items: center;
+	padding: 0 24px;
+	color:white;
+	height:100%;
+}
+
+
+
+
+@media(max-width:800px){
+	.photogallery{
+	flex-direction: column;
+	}
+
+
+

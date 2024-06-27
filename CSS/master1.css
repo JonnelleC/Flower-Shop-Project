@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.two{
+background: url("../mainpagephotos/move7.jpeg");
+background-color: lightpink;
+	height: 1200px;
+	width: 100%;
+	border: 3px#F8E4D5;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	background-size: cover;
+	 text-align: center;
+       font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        font-optical-sizing: auto;
+        font-weight:200px;
+         font-style: normal;
+         font-size: 70px;
+	
+}
+
+.para { 
+ text-align: center;
+font-size: 40px;
+
+
+}
+.button{
+display: inline-flex;
+height:60px;
+padding: 0;
+background: #0C0C0C;
+border:none;
+outline:none;
+border-radius:5px;
+overflow:hidden;
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-size: 30px;
+font-weight:300;
+cursor: pointer;
+color: white;
+		
+}
+.button:hover {
+	background:#EBBBEA
+}
+.button:active {
+	
+	background:#0C0C0C;
+}
+
+.button__text,
+.button__icon {
+	display: inline-flex;align-items: center;
+	padding: 0 24px;
+	color:white;
+	height:100%;
+}
+
+
+
+@media (max-width: 1050px){
+}
+
+@media (min-width: 650px){
+}
